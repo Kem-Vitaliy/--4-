@@ -1,0 +1,58 @@
+{
+  "_comment": "Очікувані об'єкти для кожного тестового зображення. class — COCO-клас, count — скільки таких об'єктів очікуємо.",
+  "images": [
+    {
+      "file": "images/bus.jpg",
+      "description": "Автобус і люди на вулиці (ultralytics sample)",
+      "expected_objects": [
+        {"class": "bus", "count": 1},
+        {"class": "person", "count": 4}
+      ]
+    },
+    {
+      "file": "images/zidane.jpg",
+      "description": "Дві людини (Зідан та інший футболіст) — ultralytics sample",
+      "expected_objects": [
+        {"class": "person", "count": 2},
+        {"class": "tie", "count": 1}
+      ]
+    },
+    {
+      "file": "images/dog_park.jpg",
+      "description": "Собаки в парку",
+      "expected_objects": [
+        {"class": "dog", "count": 2}
+      ]
+    },
+    {
+      "file": "images/traffic.jpg",
+      "description": "Вулиця з автомобілями",
+      "expected_objects": [
+        {"class": "car", "count": 3},
+        {"class": "person", "count": 1}
+      ]
+    },
+    {
+      "file": "images/kitchen.jpg",
+      "description": "Кухня з посудом і меблями",
+      "expected_objects": [
+        {"class": "oven", "count": 1},
+        {"class": "dining table", "count": 1}
+      ]
+    },
+    {
+      "file": "images/bicycle.jpg",
+      "description": "Велосипед",
+      "expected_objects": [
+        {"class": "bicycle", "count": 1}
+      ]
+    },
+    {
+      "file": "images/cat_sofa.jpg",
+      "description": "Кіт на дивані / в кімнаті",
+      "expected_objects": [
+        {"class": "cat", "count": 1}
+      ]
+    }
+  ]
+}
