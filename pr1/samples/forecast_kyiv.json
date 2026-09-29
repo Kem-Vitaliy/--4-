@@ -1,0 +1,21 @@
+{
+  "latitude": 50.46,
+  "longitude": 30.52,
+  "generationtime_ms": 0.037,
+  "utc_offset_seconds": 0,
+  "timezone": "GMT",
+  "timezone_abbreviation": "GMT",
+  "elevation": 179.0,
+  "current_units": {
+    "time": "iso8601",
+    "interval": "seconds",
+    "temperature_2m": "°C",
+    "wind_speed_10m": "km/h"
+  },
+  "current": {
+    "time": "2025-05-10T14:00",
+    "interval": 900,
+    "temperature_2m": 22.1,
+    "wind_speed_10m": 8.3
+  }
+}
